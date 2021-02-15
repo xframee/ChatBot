@@ -9,6 +9,9 @@ public class chatbot {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Yooo yo yo <3");
+
         System.out.println("Hej mit navn er Ava, hvad er dit navn?");
         String brugerinput = scanner.nextLine();
         String brugerNavn = brugerinput.substring(brugerinput.lastIndexOf(" ") + 1);
